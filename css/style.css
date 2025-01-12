@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
+
+.top-left {
+
+    border-top-left-radius: 25px;
+}
+
+.bottom-left {
+
+    border-bottom-left-radius: 25px;
+}
+
+.top-right {
+
+    border-top-right-radius: 25px;
+}
+
+.bottom-right {
+
+    border-bottom-right-radius: 25px;
+}
+
+.abc {
+    margin-left: 40px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.z{
+    z-index: 999;
+}

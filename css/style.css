@@ -17,6 +17,11 @@
     text-decoration: none;
 }
 
+
+.br{
+    border-radius: 25px;
+}
+
 .top-left {
 
     border-top-left-radius: 25px;
@@ -54,4 +59,25 @@
 
 .bb{
     font-weight: 400;
+}
+
+
+.box1{
+    border-top-left-radius: 25px;
+}
+
+
+@media (max-width: 768px) { /* For tablets and smaller devices */
+  
+    .box1{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+}
+
+@media (max-width: 576px) { /* For mobile devices */
+    .box1{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
 }

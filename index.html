@@ -18,16 +18,16 @@
 
 <body>
 
-  <div class="container mt-5 mb-5 br p-5 " style="background-color: blue;">
+  <div class="container mt-5 mb-5 br p-4 " style="background-color: white;">
 
 
 
     <!-- Row 1 -->
-    <div class="row  br" >
+    <div class="row  br">
 
-      <div class="col-lg-6 col-md-12 box1 p-0" style="background-color: #F3F4F6;">
+      <div class="col-lg-6 col-md-12 box1 position-relative p-0" style="background-color: #F3F4F6;">
+        <img class="position-absolute top-0 start-0" style="z-index: 990;" src="./resources/Background_decor@2x.png" alt="">
         <div class="z position-relative  p-5">
-          <img class="position-absolute top-0 start-0" style="z-index: 990;" src="./resources/Background_decor@2x.png" alt="">
 
           <p class="aa">Our team</p>
           <h2>Meet the brain</h2>
@@ -38,20 +38,31 @@
       </div>
 
 
-      <div class="col-lg-3 p-0 box2-subBox1 position-relative d-flex " style="background-color: #C1B6F8;">
+      <div class="col-lg-3 col-md-4 p-0 box2-subBox1 position-relative d-flex "
+        style="background-color: #C1B6F8; z-index: 999;">
         <img class="w-100" src="./resources/person_1@2x.png" alt="">
         <img class="position-absolute bottom-0 w-100" src="./resources/Gradient@2x.png" alt="">
-        <div class="w-100 position-absolute bottom-0 text-white z ms-4">
+        <div class="w-100 position-absolute bottom-0 text-white z ps-4">
           <h4>Liam Novak</h4>
           <p>Software Engineer</p>
         </div>
       </div>
 
-      <div class="col-lg-3 p-0 box2-subBox1  position-relative d-flex" style="background-color: #EDACD2;">
+      <div class="col-lg-3 col-md-4 p-0 box2-subBox2  position-relative d-flex" style="background-color: #EDACD2;">
         <img class="w-100" src="./resources/person_2.png" alt="">
         <img class="position-absolute bottom-0 w-100" src="./resources/Gradient@2x.png" alt="">
-        <div class="w-100 position-absolute bottom-0 text-white z ms-4">
+        <div class="w-100 position-absolute bottom-0 text-white z ps-4">
           <h4>Sophia Moretti</h4>
+          <p>Business Development Manager</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 d-lg-none d-md-block d-none col-md-4 order-1 position-relative p-0 d-flex "
+        style="background-color: #9DC4F8;">
+        <img class="w-100" src="./resources/person_3@2x.png" alt="">
+        <img class="position-absolute start-0 bottom-0 w-100" src="./resources/Gradient@2x.png" alt="">
+        <div class="w-100 position-absolute  bottom-0 text-white z ps-4">
+          <h4>Ethan Rossi</h4>
           <p>Business Development Manager</p>
         </div>
       </div>
@@ -59,39 +70,43 @@
     </div>
 
     <!-- Row 2 -->
-    <div class="row  " style="background-color: #F3F4F6;">
-      <div class="col-lg-3 d-flex align-items-end p-0 ">
-        <div class="w-100 d-flex">
-          <p class="abc">See all members <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M11.3333 4H4.66667C4.26667 4 4 4.26667 4 4.66667C4 5.06667 4.26667 5.33333 4.66667 5.33333H9.73333L4.2 10.8667C3.93333 11.1333 3.93333 11.5333 4.2 11.8C4.46667 12.0667 4.86667 12.0667 5.13333 11.8L10.6667 6.26667V11.3333C10.6667 11.7333 10.9333 12 11.3333 12C11.7333 12 12 11.7333 12 11.3333V4.66667C12 4.26667 11.7333 4 11.3333 4Z"
-                fill="#394150" />
-            </svg></p>
-        </div>
+    <div class="row">
+
+      <div class="col-lg-3 row2-box1  col-md-4 order-lg-1 order-md-1 order-5  d-flex align-items-end p-0 ">
+        <p class="abc d-flex align-items-center gap-1">
+          See all members
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.3333 4H4.66667C4.26667 4 4 4.26667 4 4.66667C4 5.06667 4.26667 5.33333 4.66667 5.33333H9.73333L4.2 10.8667C3.93333 11.1333 3.93333 11.5333 4.2 11.8C4.46667 12.0667 4.86667 12.0667 5.13333 11.8L10.6667 6.26667V11.3333C10.6667 11.7333 10.9333 12 11.3333 12C11.7333 12 12 11.7333 12 11.3333V4.66667C12 4.26667 11.7333 4 11.3333 4Z"
+              fill="#394150" />
+          </svg>
+        </p>
       </div>
-      <div class="col-lg-3 position-relative p-0 d-flex " style="background-color: #9DC4F8;">
+
+      <div class="col-lg-3 col-md-4 d-lg-block d-md-none order-1 position-relative p-0 d-flex "
+        style="background-color: #9DC4F8;">
         <img class="w-100" src="./resources/person_3@2x.png" alt="">
-        <img class="position-absolute bottom-0 w-100" src="./resources/Gradient@2x.png" alt="">
-        <div class="w-100 position-absolute bottom-0 text-white z ms-4">
+        <img class="position-absolute bottom-0 start-0 w-100" src="./resources/Gradient@2x.png" alt="">
+        <div class="w-100 position-absolute bottom-0 text-white z ps-4">
           <h4>Ethan Rossi</h4>
           <p>Business Development Manager</p>
         </div>
       </div>
 
 
-      <div class="col-lg-3 position-relative p-0 d-flex " style="background-color: #F8D8B0;">
+      <div class="col-lg-3 col-md-4 order-2 position-relative p-0 d-flex " style="background-color: #F8D8B0;">
         <img class="w-100" src="./resources/person_4@2x.png" alt="">
         <img class="position-absolute bottom-0 w-100" src="./resources/Gradient@2x.png" alt="">
-        <div class="w-100 position-absolute bottom-0 text-white z ms-4">
+        <div class="w-100 position-absolute bottom-0 text-white z ps-4">
           <h4>Isabella Ricci</h4>
           <p>UX Designer</p>
         </div>
       </div>
-      <div class="col-lg-3 position-relative p-0 d-flex" style="background-color: #86E7D4;">
+
+      <div class="col-lg-3 col-md-4 row2-box4  order-3 position-relative p-0 d-flex" style="background-color: #86E7D4;">
         <img class="w-100" src="./resources/person_5@2x.png" alt="">
-        <img class="position-absolute bottom-0 w-100" src="./resources/Gradient@2x.png" alt="">
-        <div class="w-100 position-absolute bottom-0 text-white z ms-4">
+        <img class="position-absolute bottom-0 row2-box4-gradient w-100" src="./resources/Gradient@2x.png" alt="">
+        <div class="w-100 position-absolute bottom-0 text-white z ps-4">
           <h4>Noah Conti</h4>
           <p>Content Creator</p>
         </div>
